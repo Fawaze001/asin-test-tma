@@ -86,6 +86,8 @@ sqlite3 -header -column rdv.db < requetes.sql
 
 ## Résultats des requêtes d'impact (`requetes.sql`, export du 20/11/2026 à 18 h)
 
+   Vérification automatique de ces résultats : `php verif_sql.php` (nécessite `base_rendez_vous.sql` dans le même dossier et l'extension PHP `pdo_sqlite`).
+   
 | # | Requête | Résultat |
 | --- | --- | --- |
 | 1 | Confirmés, à venir, pris un samedi ou un dimanche | **5** : n° 680, 730, 834, 857, 874 (usagers à prévenir) |
